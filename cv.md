@@ -1,6 +1,6 @@
 # Sergey Kravchenko. Frontend Developer
 
-![Sergey Kravchenko. Frontend Developer](assets/img/person-circle-cropped-230x230.png "Sergey Kravchenko. Junior Frontend Developer")
+![Sergey Kravchenko. Frontend Developer](assets/img/person-circle-cropped-230x230.png "Sergey Kravchenko. Frontend Developer")
 
 ### Contact information
 ___
