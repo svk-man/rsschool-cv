@@ -25,18 +25,18 @@ ___
 
 ### Code
 ___
-
-    function positiveSum(arr) {
-        let sum = 0;
-        arr.forEach(function(item) {
-            if (item > 0) {
-                sum += item;
-            }
-        });
-  
-        return sum;
+```
+function positiveSum(arr) {
+  let sum = 0;
+  arr.forEach(function(item) {
+    if (item > 0) {
+      sum += item;
     }
-
+  });
+  
+  return sum;
+}
+```
 ### Education
 ___
 
