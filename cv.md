@@ -41,37 +41,37 @@ ___
 ___
 
 - Volgograd State Technical University
-    - Electronics and Computer Science Faculty
-    - Software of automated systems Department
-    - Software engineering
-        - Postgraduate student (09/2020 - 06/2024)
-        - Master's degree (09/2018 - 06/2020)
-        - Bachelor's degree (09/2012 - 06/2018)
-    - Russia, Volgograd
+  - Electronics and Computer Science Faculty
+  - Software of automated systems Department
+  - Software engineering
+    - Postgraduate student (09/2020 - 06/2024)
+    - Master's degree (09/2018 - 06/2020)
+    - Bachelor's degree (09/2012 - 06/2018)
+  - Russia, Volgograd
 
 ### Work Experience
 ___
 
 - IC SIBINTEK LLC (Internet Company SIBINTEK)
-    - Specialist Adviser
-    - 09/2019 - present
-    - Russia, Volgograd
+  - Specialist Adviser
+  - 09/2019 - present
+  - Russia, Volgograd
 - Kvantorium
-    - System Administrator
-    - 12/2018 - 03/2019
-    - Russia, Volgograd
+  - System Administrator
+  - 12/2018 - 03/2019
+  - Russia, Volgograd
 - Intervolga
-    - Backend Developer
-    - 06/2016 - 06/2018
-    - Russia, Volgograd
+  - Backend Developer
+  - 06/2016 - 06/2018
+  - Russia, Volgograd
 
 ### Courses
 ___
 
 - RS School
-    - JS / FRONT-END. STAGE 0
-    - 12/2021 - present
-    - Online
+  - JS / FRONT-END. STAGE 0
+  - 12/2021 - present
+  - Online
 
 ### Languages
 ___
