@@ -37,6 +37,7 @@
   line-height: 56px;
   letter-spacing: 0.005em;
   color: var(--main-color);
+  text-transform: uppercase;
 }
 
 .header__title--gray {
@@ -49,6 +50,7 @@
   line-height: 35px;
   letter-spacing: 0.005em;
   color: var(--main-color);
+  text-transform: uppercase;
 }
 
 .contacts {
@@ -125,6 +127,12 @@
   align-items: center;
 }
 
+.header__photo {
+  width: 409px;
+  height: 470px;
+  background-size: cover;
+}
+
 .header__about {
   width: 100%;
   height: 470px;
@@ -146,8 +154,18 @@
   padding: 60px 0;
 }
 
+.main__content {
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+}
+
+.main__section {
+  width: 100%;
+}
+
 .short-section {
-  width: 409px;
+  max-width: 409px;
 }
 
 .section__title {
