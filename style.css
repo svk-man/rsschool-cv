@@ -258,22 +258,26 @@
   color: var(--main-color);
 }
 
-.education-section__item {
+.education-section__item,
+.courses-section__item {
   list-style: none;
   display: flex;
   column-gap: 75px;
   margin-bottom: 20px;
 }
 
-.education-section__item:last-child {
+.education-section__item:last-child,
+.courses-section__item:last-child {
   margin-bottom: 0;
 }
 
-.education-section__item-column:first-child {
+.education-section__item-column:first-child,
+.courses-section__item-column:first-child {
   min-width: 264px;
 }
 
-.education-section__item-position {
+.education-section__item-position,
+.courses-section__item-period {
   font-family: "Poppins";
   font-weight: bold;
   font-size: 23px;
@@ -283,7 +287,8 @@
   color: #4F4F4F;
 }
 
-.education-section__item-period {
+.education-section__item-period,
+.courses-section__item-period {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 22px;
@@ -293,7 +298,8 @@
   color: #BDBDBD;
 }
 
-.education-section__item-location {
+.education-section__item-location,
+.courses-section__item-location {
   margin-bottom: 15px;
   font-weight: bold;
   font-size: 26px;
