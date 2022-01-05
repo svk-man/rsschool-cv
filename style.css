@@ -202,11 +202,11 @@
   background: linear-gradient(90deg, #157698 0%, rgba(21, 118, 152, 0) 100%);
 }
 
-.skills-section__list {
+.section__list {
   padding-left: 20px;
 }
 
-.skills-section__list-item {
+.section__list-item {
   list-style: none;
   margin-bottom: 15px;
   font-family: "Poppins";
@@ -217,7 +217,7 @@
   color: #333333;
 }
 
-.skills-section__list-item:last-child() {
+.section__list-item:last-child() {
   margin-bottom: 0;
 }
 
