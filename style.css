@@ -248,3 +248,12 @@
 .projects-section__item-image:hover {
   filter: brightness(0.4);
 }
+
+.section__code {
+  font-size: 20px;
+}
+
+.hljs-title,
+.hljs-number {
+  color: var(--main-color);
+}
