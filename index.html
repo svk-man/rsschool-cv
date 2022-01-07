@@ -4,10 +4,186 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Frontend Developer Sergey Kravchenko</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header class="header">
+    <nav class="header__nav">
+      <div class="container">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#contacts" class="header__nav-link">Contacts</a></li>
+          <li class="header__nav-item"><a href="#about-me" class="header__nav-link">About me</a></li>
+          <li class="header__nav-item"><a href="#skills" class="header__nav-link">Skills</a></li>
+          <li class="header__nav-item"><a href="#projects" class="header__nav-link">Projects</a></li>
+          <li class="header__nav-item"><a href="#code-example" class="header__nav-link">Code example</a></li>
+          <li class="header__nav-item"><a href="#education" class="header__nav-link">Education</a></li>
+          <li class="header__nav-item"><a href="#courses" class="header__nav-link">Courses</a></li>
+          <li class="header__nav-item"><a href="#languages" class="header__nav-link">Languages</a></li>
+          <li class="header__nav-item"><a href="#interests" class="header__nav-link">Interests</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <div class="header__titles">
+            <h1 class="header__title">Sergey <span class="header__title--gray">Kravchenko</span></h1>
+            <p class="header__subtitle">Frontend Developer</p>
+          </div>
+          <div class="contacts" id="contacts">
+            <ul class="contacts__list">
+              <li class="contacts__list-item contacts__list-item--mail"><a class="contacts__link" href="mailto:kravchenko.sgv@gmail.com">kravchenko.sgv@gmail.com</a></li>
+              <li class="contacts__list-item contacts__list-item--discord"><a class="contacts__link" href="https://discord.com/" target="_blank">Sergey Kravchenko#1886</a></li>
+              <li class="contacts__list-item contacts__list-item--git"><a class="contacts__link" href="https://github.com/svk-man" target="_blank">svk-man</a></li>
+              <li class="contacts__list-item contacts__list-item--location"><a class="contacts__link" href="https://en.wikipedia.org/wiki/Volgograd" target="_blank">Volgograd, Russia</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <img class="header__photo" src="assets/img/photo.jpg" alt="Sergey Kravchenko">
+          <div class="header__about" id="about-me">
+            <p class="header__about-text">Highly interested in creating new things and passionate about practical aspects of coding. Basic knowledges and some experience in HTML, CSS and JavaScript.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main__content">
+        <div class="main__content-column">
+          <section class="projects-section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <div class="projects-section__items">
+              <div class="projects-section__item">
+                <p class="projects-section__item-title">Portfolio</p>
+                <a class="projects-section__item-link" href="#" target="_blank">
+                  <img src="assets/img/projects/portfolio.jpg" alt="Portfolio" class="projects-section__item-image">
+                </a>
+              </div>
+              <div class="projects-section__item">
+                <p class="projects-section__item-title">Nature sounds</p>
+                <a class="projects-section__item-link" href="#" target="_blank">
+                  <img src="assets/img/projects/nature_sounds.jpg" alt="Nature sounds" class="projects-section__item-image">
+                </a>
+              </div>
+              <div class="projects-section__item">
+                <p class="projects-section__item-title">Audio Player</p>
+                <a class="projects-section__item-link" href="#" target="_blank">
+                  <img src="assets/img/projects/audio_player.jpg" alt="Audio Player" class="projects-section__item-image">
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="code-section" id="code-example">
+            <h2 class="section__title">Code example</h2>
+            <pre><code class="section__code">
+function positiveSum(arr) {
+  let sum = 0;
+  arr.forEach(function(item) {
+    if (item > 0) {
+      sum += item;
+    }
+  });
+
+  return sum;
+}
+            </code></pre>
+          </section>
+          <section class="education-section" id="education">
+            <h2 class="section__title">Education</h2>
+            <ul class="edication-section__list">
+              <li class="education-section__item">
+                <div class="education-section__item-column">
+                  <p class="education-section__item-position">Postgraduate student</p>
+                  <p class="education-section__item-period">09/2020 - 06/2024</p>
+                </div>
+                <div class="education-section__item-column">
+                  <p class="education-section__item-location">Volgograd State Technical University, Electronics and Computer Science Faculty, Software of automated systems Department, Software engineering</p>
+                </div>
+              </li>
+              <li class="education-section__item">
+                <div class="education-section__item-column">
+                  <p class="education-section__item-position">Master's degree</p>
+                  <p class="education-section__item-period">09/2018 - 06/2020</p>
+                </div>
+                <div class="education-section__item-column">
+                  <p class="education-section__item-location">Volgograd State Technical University, Electronics and Computer Science Faculty, Software of automated systems Department, Software engineering</p>
+                </div>
+              </li>
+              <li class="education-section__item">
+                <div class="education-section__item-column">
+                  <p class="education-section__item-position">Bachelor's degree</p>
+                  <p class="education-section__item-period">09/2012 - 06/2018</p>
+                </div>
+                <div class="education-section__item-column">
+                  <p class="education-section__item-location">Volgograd State Technical University, Electronics and Computer Science Faculty, Software of automated systems Department, Software engineering</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="courses-section" id="courses">
+            <h2 class="section__title">Courses</h2>
+            <ul class="courses-section__list">
+              <li class="education-section__item">
+                <div class="education-section__item-column">
+                  <p class="education-section__item-period">12/2021 - present</p>
+                </div>
+                <div class="education-section__item-column">
+                  <p class="education-section__item-location">JS / FRONT-END. STAGE 0</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="main__content-column">
+          <section class="section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__list">
+              <li class="section__list-item">HTML5, CSS3</li>
+              <li class="section__list-item">JavaScript Basics</li>
+              <li class="section__list-item">Git, GitHub</li>
+              <li class="section__list-item">VS Code</li>
+              <li class="section__list-item">Figma</li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section__title">Languages</h2>
+            <ul class="section__list">
+              <li class="section__list-item">English: A2 (Elementary)</li>
+            </ul>
+          </section>
+          <section class="section" id="interests">
+            <h2 class="section__title">Interests</h2>
+            <ul class="section__list">
+              <li class="section__list-item">Books</li>
+              <li class="section__list-item">Cinematography</li>
+              <li class="section__list-item">Self-development</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <a class="footer__link" href="https://github.com/svk-man" target="_blank">svk-man</a>
+        <p class="footer__text">2022</p>
+        <a class="footer__link" href="https://rs.school/js/" target="_blank">
+          <img src="assets/svg/rs-school-js-icon.svg" alt="RS School JS" class="footer__logo">
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
