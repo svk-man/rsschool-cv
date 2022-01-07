@@ -41,6 +41,10 @@
 }
 
 .page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: "Roboto";
 }
 
@@ -59,7 +63,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 45px;
   margin-bottom: 60px;
+}
+
+.header__titles {
+  min-width: 501px;
 }
 
 .header__title {
@@ -85,15 +94,11 @@
   text-transform: uppercase;
 }
 
-.contacts {
-  max-width: 815px;
-}
-
 .contacts__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 25px;
+  row-gap: 25px;
 }
 
 .contacts__list-item {
