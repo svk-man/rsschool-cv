@@ -207,6 +207,7 @@ body {
 .header__about {
   width: 100%;
   height: 470px;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,7 +226,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  column-gap: 90px;
+  gap: 30px 90px;
   padding: 60px 0;
 }
 
@@ -290,10 +291,6 @@ body {
 
 .section__list-item:last-child() {
   margin-bottom: 0;
-}
-
-.projects-section {
-  max-width: 700px;
 }
 
 .projects-section__items {
@@ -412,4 +409,50 @@ body {
 
 .footer__logo:hover {
   filter: brightness(0.4);
+}
+
+@media (max-width: 1210px) {
+  .main__content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__top-inner {
+    flex-direction: column;
+    row-gap: 45px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 860px) {
+  .header__titles {
+    min-width: auto;
+  }
+
+  .header__title {
+    font-size: 38px;
+  }
+
+  .header__content-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__about {
+    height: auto;
+  }
+
+  .education-section__item,
+  .courses-section__item {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .education-section__item-position,
+  .education-section__item-period,
+  .courses-section__item-position,
+  .courses-section__item-period {
+    text-align: left;
+  }
 }
